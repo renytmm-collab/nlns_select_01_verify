@@ -1,0 +1,3 @@
+# Provision torch >=2.5 separately; V100 requires an sm_70-compatible wheel.
+# No CLI installs dependencies. All five scoring families use NumPy only.
+numpy==1.26.4

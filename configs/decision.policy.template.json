@@ -1,0 +1,12 @@
+{
+  "schema": 2,
+  "test_instances": null,
+  "min_gain_pp": 0.01,
+  "planning_object_effect_pp": 0.005,
+  "planning_selection_effect_pp": 0.01,
+  "power_per_contrast": 0.8,
+  "family_alpha": 0.05,
+  "min_productivity_ratio": 1.05,
+  "deployment_batch_size": 1,
+  "note": "模板不是计算授权。看新测试前填写实例数；必须不低于开发阶段估计且为16的倍数。开发选择均值和成本门槛不通过时禁止冻结测试计划。"
+}
