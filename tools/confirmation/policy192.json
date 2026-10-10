@@ -1,0 +1,18 @@
+{
+  "experiment": "point-classifier-confirmation-v1",
+  "root_seed": 2026101001,
+  "test_instances": 192,
+  "main_method": "lens_classifier",
+  "simple_method": "contact_edges",
+  "deployment_batch_size": 1,
+  "label_batch_size": 16,
+  "A_repeats": 32,
+  "B_repeats": 128,
+  "family_alpha": 0.05,
+  "power_per_contrast": 0.8,
+  "planning_null_pp": 0.0,
+  "planning_alternative_pp": 0.05,
+  "min_gain_pp": 0.01,
+  "min_productivity_ratio": 1.05,
+  "bootstrap_repeats": 10000
+}
